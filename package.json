@@ -1,0 +1,28 @@
+{
+  "name": "WhatsChatGPT",
+  "version": "1.0.0",
+  "description": "Aplicación web de chatbot desarrollada como práctica de desarrollo Full Stack (módulo Back-End). Utiliza una arquitectura cliente-servidor con comunicación bidireccional mediante **WebSockets (Socket.io)** e inteligencia artificial por **Ollama** y cuenta con una interfaz de usuario inspirada en **WhatsApp Web**.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edu84gp/WhatsChatGPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/edu84gp/WhatsChatGPT/issues"
+  },
+  "homepage": "https://github.com/edu84gp/WhatsChatGPT#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ollama": "^0.6.3",
+    "socket.io": "^4.8.3"
+  }
+}
